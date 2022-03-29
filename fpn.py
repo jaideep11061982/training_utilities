@@ -115,3 +115,7 @@ class FPN(nn.Module):
 def FPN101():
     # return FPN(Bottleneck, [2,4,23,3])
     return FPN(Bottleneck, [2,2,2,2])
+
+
+#torch.Size([2, 256, 64, 64]) torch.Size([2, 256, 32, 32]) torch.Size([2, 256, 16, 16]) torch.Size([2, 256, 8, 8])
+
