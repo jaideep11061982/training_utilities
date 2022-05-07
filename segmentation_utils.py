@@ -32,6 +32,10 @@ def area_threshold(img,min_area=200,top_threshold=0.45):
         min_area = np.percentile(areas, 0.1) 
     else:
         min_area =  500
+        
+#tiled inference
+https://www.kaggle.com/code/jaideepvalani/fork-of-timm-b2-inference
+https://www.kaggle.com/code/iafoss/hubmap-pytorch-fast-ai-starter-sub
     
     
     
