@@ -229,4 +229,6 @@ model = smp.DeepLabV3Plus(encoder_name=name,
                          encoder_weights=cfg.encoder_weights, 
                          in_channels=cfg.in_channels, 
                          classes=cfg.classes)
-
+#Tiling and inferece
+https://www.kaggle.com/code/jaideepvalani/3072-1024-images
+https://www.kaggle.com/code/jaideepvalani/fork-of-timm-b2-inference
