@@ -232,3 +232,5 @@ model = smp.DeepLabV3Plus(encoder_name=name,
 #Tiling and inferece
 https://www.kaggle.com/code/jaideepvalani/3072-1024-images
 https://www.kaggle.com/code/jaideepvalani/fork-of-timm-b2-inference
+    
+https://www.kaggle.com/code/jaideepvalani/deepflash-updated-raster?scriptVersionId=62573188
