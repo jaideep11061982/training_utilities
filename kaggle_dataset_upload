@@ -1,0 +1,15 @@
+data = '''{
+  "title": "rsna_dataset_segmented",
+  "id": "rohitsingh9990/rsna-dataset-segmented",
+  "licenses": [
+    {
+      "name": "unknown"
+    }
+  ]
+}
+'''
+text_file = open("/tmp/rsna_dataset/dataset-metadata.json", 'w+')
+n = text_file.write(data)
+text_file.close()
+
+!kaggle datasets create -p /tmp/rsna_dataset
