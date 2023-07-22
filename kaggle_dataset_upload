@@ -13,3 +13,18 @@ n = text_file.write(data)
 text_file.close()
 
 !kaggle datasets create -p /tmp/rsna_dataset
+data = '''{
+  "title": "contrails-segmentation",
+  "id": "jaideepvalani/contrails-segmentation",
+  "licenses": [
+    {
+      "name": "unknown"
+    }
+  ]
+}
+'''
+text_file = open("/content/drive/MyDrive/vision_Exp/dataset/dataset-metadata.json", 'w+')
+n = text_file.write(data)
+text_file.close()
+
+!kaggle datasets create -p /content/drive/MyDrive/vision_Exp/dataset
